@@ -1,0 +1,24 @@
+{
+    "name": "niming175/test",
+    "description": "这是个测试的laravelcomposer安装包",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Niming175\\Test\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "niming175",
+            "email": "niming175@qq.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Niming175\\Test\\TestServiceProvider"
+        ]
+      }
+    }
+}
